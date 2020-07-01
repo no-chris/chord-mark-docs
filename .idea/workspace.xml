@@ -6,7 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb50a89-b125-4b6b-b1eb-d4267b1db0b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/chord-mark-docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chord-mark-docs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/samples.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/test.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChordMarkBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +35,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1593618654167</updated>
       <workItem from="1593618660813" duration="1583000" />
-      <workItem from="1593622857474" duration="312000" />
+      <workItem from="1593622857474" duration="3154000" />
+      <workItem from="1593633669058" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="init docusaurus">
       <created>1593622895923</created>
@@ -57,7 +64,28 @@
       <option name="project" value="LOCAL" />
       <updated>1593622895923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chore: Add project configuration files">
+      <created>1593623246851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593623246852</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(Blog): Remove blog">
+      <created>1593634597739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593634597739</updated>
+    </task>
+    <task id="LOCAL-00004" summary="style: Install and configure Prettier">
+      <created>1593634724315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593634724315</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,12 +105,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init docusaurus" />
-    <option name="LAST_COMMIT_MESSAGE" value="init docusaurus" />
+    <MESSAGE value="chore: Add project configuration files" />
+    <MESSAGE value="feat(Blog): Remove blog" />
+    <MESSAGE value="style: Install and configure Prettier" />
+    <MESSAGE value="feat(ChordMark): add POC for chordmark integration as a MDX component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ChordMark): add POC for chordmark integration as a MDX component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="349" y="175" key="SettingsEditor" timestamp="1593622824183">
+    <state x="349" y="175" key="SettingsEditor" timestamp="1593631840567">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593622824183" />
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1593631840567" />
   </component>
 </project>
